@@ -80,6 +80,19 @@ body {
     border-radius: 50%;
     margin-top: 20px;
 }
+#card-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    i{
+        font-size: 25px;
+    }
+    a{
+        text-transform: none;
+        color: black;
+    }
+    
+}
 
 /* Section Headings */
 .heading,
