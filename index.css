@@ -1,0 +1,212 @@
+/* General styles */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* Navbar */
+#parentnavbar {
+    background-color: #24292e;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    color: white;
+    position:sticky;
+    top: 0px;
+    z-index: 0px;
+    align-items: center;
+}
+
+.nav-title .portfolio {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#nav-components {
+    display: flex;
+    gap: 20px;
+}
+
+.component a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.component a:hover {
+    text-decoration: underline;
+}
+
+/* Card Section */
+#card-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+#card {
+    background-color: #c3daf2;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    text-align: center;
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.subheading {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Section Headings */
+.heading,
+.headin {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0 20px;
+    color: #2c3e50;
+
+
+}
+
+/* About Section */
+#about {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    .content {
+        text-align: justify;
+        font-size: 20px;
+    }
+
+}
+
+/* Skills */
+.skill-items {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skill-name {
+    background-color: #d1e7dd;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 5px;
+    font-weight: 500;
+}
+
+/* Education Cards */
+.eduction-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    .card {
+        background-color: #ffffff;
+        padding: 20px;
+        width: 350px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+}
+
+/* Projects */
+.Project-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 0 20px;
+    max-width: 1000px;
+    margin: auto;
+
+    .title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .project-card {
+        background-color: #fdfefe;
+        padding: 20px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    .project-desc {
+        padding-left: 10px;
+        font-style: italic;
+        color: #555;
+    }
+
+     .project-list {
+        padding-left: 20px;
+        margin-top: 8px;
+    }
+
+}
+
+/* Internship */
+.internship-card {
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+   
+    border-radius: 20px;
+     .title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+/* Contact */
+.contact-info {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contact-details {
+    font-size: 18px;
+    margin: 5px 0;
+}
